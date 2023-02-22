@@ -1,0 +1,19 @@
+# quiz.py
+
+## Questions ##
+Q: How many siblings does Ronald Weasley have? A: 6
+Q: How many wizarding children fit the description of the prophecy? A: 2
+Q: Who was the other child who fit the prophecy besides Harry? A: Neville Longbottom
+Q: How many horcruxes did Voldemort create? A: 7
+Q: What is the seventh horcrux? A: Harry Potter
+Q: 
+Q:
+Q:
+Q:
+
+
+answer = input("When was the first known use of the word 'quiz'? ")
+if answer == "1781":
+    print("Correct!")
+else:
+    print(f"The answer is '1781', not {answer!r}")
