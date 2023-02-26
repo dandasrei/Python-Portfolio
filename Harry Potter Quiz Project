@@ -12,8 +12,30 @@ Q: What is Harry Potters Grandmothers Maiden Name? A: Dorea Black
 Q: What witch did Severus Snape grow up near? A: Lily Evans
 
 
-answer = input("When was the first known use of the word 'quiz'? ")
-if answer == "1781":
+answer = input("How many siblings does Ronald Weasley have? ")
+if answer == "6":
     print("Correct!")
 else:
-    print(f"The answer is '1781', not {answer!r}")
+    print(f"The answer is '6', not {answer!r}")
+   
+## Store Questions ##
+
+Questions = [
+    ("How many siblings does Ronald Weasley have?"),
+    ("How many wizarding children fit the description of the prophecy"),
+    ("Who was the other child who fit the prophecy besides Harry?"),
+    ("How many horcruxes did Voldemort create?"),
+    ("What is the seventh Horcux?"),
+    ("What is Voldemorts Birth Name?"),
+    ("Who taught Tom Riddle about Horcruxes?")
+    ("What is Harry Potters Grandmothers Maiden Name?:),
+    ("What witch did Severus Snape grow up near?")
+]
+
+## Implement Questions ##
+for question, correct_answer in QUESTIONS:
+    answer = input(f"{question}? ")
+    if answer == correct_answer:
+        print("Correct!")
+    else:
+        print(f"The answer is {correct_answer!r}, not {answer!r}")
